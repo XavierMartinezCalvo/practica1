@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity(), TennisInterface {
         textSet2.text = setB
     }
 
-    override fun displayGames(gamesA: String, gamesB: String) = with(binding)  {
+    override fun displayGames(gamesA: String, gamesB: String) = with(binding) {
         textGame.text = gamesA
         textGame2.text = gamesB
     }

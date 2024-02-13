@@ -79,7 +79,7 @@ class viewModelTenis: ViewModel() {
         displayPoints(pointsA, pointsB)
         displaySets(scoreA.sets.toString(), scoreB.sets.toString())
 
-        isPointsEnabled = isMatchEnded
+        isPointsEnabled = !isMatchEnded
         isMaxSetsEnabled = atGameBeginning
     }
 
